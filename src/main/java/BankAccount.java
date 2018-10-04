@@ -8,15 +8,22 @@ import java.util.Random;
  * @see <a href="https://cs125.cs.illinois.edu/lab/5/">Lab 5 Description</a>
  */
 public class BankAccount {
-
     /*
      * You may want to use this to distinguish between different kinds of accounts.
      */
     public enum BankAccountType {
-        CHECKINGS,
-        SAVINGS,
+        /**
+         * CHECKING  dnsknf
+         * SAVING fnsif
+         * STUDENT nfjs
+         * WORKPLACE fdnsof.
+         * bankAccount
+         * amount,
+         */
+        CHECKING,,
+        SAVING,
         STUDENT,
-        WORKPLACE
+        WORKPLACE,
     }
 
     private int accountNumber;
@@ -30,8 +37,8 @@ public class BankAccount {
         /*
          * Implement this function
          */
-    }
 
+    }
     /*
      * Implement getters and setters as appropriate for private variables.
      */

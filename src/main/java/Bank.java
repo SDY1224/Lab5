@@ -8,9 +8,15 @@
  * @see <a href="https://cs125.cs.illinois.edu/lab/5/">Lab 5 Description</a>
  */
 public class Bank {
+    /**
+     * bankName hfisd.
+     */
 
-    public String bankName;
+    private String bankName;
 
+    /**
+     * ndsnf.
+     */
     public Bank() {
         bankName = "Illini Bank";
     }
@@ -29,6 +35,7 @@ public class Bank {
         /*
          * Implement this function
          */
+
     }
 
     /**
